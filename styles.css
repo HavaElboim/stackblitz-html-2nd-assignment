@@ -5,3 +5,12 @@
   position: absolute;
   left: 0px;
 }
+
+.on-hover-text {
+  background-color: rgb(235, 9, 243);
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  left: 0px;
+  top: 40px;
+}
