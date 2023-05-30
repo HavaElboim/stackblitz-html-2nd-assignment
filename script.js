@@ -35,8 +35,7 @@ function moveOnClick() {
 function moveOnHover() {
   console.log(move_hover.style.top);
 
-  // .style.left is the position of the element from the left of the screen
-  // .replace performs a regex. Here it replaces all non-integer characters (\D) with an empty character
+  // .style.top is the position of the element from the top of the screen
   tmp = Number(move_hover.style.top.replace(/\D/g, ''));
   console.log('move hover: tmp is ', tmp);
 
@@ -44,7 +43,7 @@ function moveOnHover() {
   tmp2 = tmp + jump_y;
   console.log(tmp2);
 
-  //set the new position from the left
+  //set the new position from the top
   if (tmp2 < max_height) {
     move_hover.style.top = tmp2 + 'px';
     console.log('adding jump');
