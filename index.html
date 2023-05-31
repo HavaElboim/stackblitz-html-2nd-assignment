@@ -8,22 +8,33 @@
     <script type="module" src="script.js"></script>
   </head>
   <body>
-    <p id="onClickText" class="on-click-text" onclick="clickBox.moveOnAction()">
+    <p
+      id="onClickText"
+      class="on-click-text action-box"
+      onclick="clickBox.moveOnAction()"
+    >
       Make me move on click
     </p>
     <p
       id="onHoverText"
-      class="on-hover-text"
+      class="on-hover-text action-box"
       onmouseover="hoverBox.moveOnAction()"
     >
       Make me move on hover
     </p>
     <p
       id="onEnterText"
-      class="on-enter-text"
+      class="on-enter-text action-box"
       onmouseenter="enterBox.moveOnAction()"
     >
       Make me move on enter
+    </p>
+    <p
+      id="onLeaveText"
+      class="on-leave-text action-box"
+      onmouseenter="leaveBox.moveOnAction()"
+    >
+      Make me move on leave
     </p>
     <script type="text/javascript" src="./script.js"></script>
   </body>

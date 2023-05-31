@@ -1,25 +1,28 @@
-.on-click-text {
-  background-color: green;
+.action-box {
   display: inline-block;
   cursor: pointer;
   position: absolute;
+}
+
+.on-click-text {
+  background-color: green;
   left: 0px;
 }
 
 .on-hover-text {
   background-color: rgb(235, 9, 243);
-  display: inline-block;
-  cursor: pointer;
-  position: absolute;
   left: 0px;
   top: 40px;
 }
 
 .on-enter-text {
   background-color: rgb(251, 217, 0);
-  display: inline-block;
-  cursor: pointer;
-  position: absolute;
   left: 200px;
   top: 240px;
+}
+
+.on-leave-text {
+  background-color: rgb(0, 243, 251);
+  left: 100px;
+  top: 140px;
 }
