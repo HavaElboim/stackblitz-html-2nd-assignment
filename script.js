@@ -1,9 +1,7 @@
 let move_click = document.getElementById('onClickText');
 console.log('move_click is: ', move_click);
 let move_hover = document.getElementById('onHoverText');
-let tmp, tmp_left, tmp_top, tmp2, tmp2_left, tmp2_top, tmp3;
-let jump_x = 100,
-  jump_y = 50;
+let tmp_left, tmp_top, tmp2_left, tmp2_top;
 
 let screen_width = window.screen.width;
 let screen_height = window.screen.height;
