@@ -1,6 +1,8 @@
 let move_click = document.getElementById('onClickText');
 console.log('move_click is: ', move_click);
 let move_hover = document.getElementById('onHoverText');
+let move_enter = document.getElementById('onEnterText');
+console.log('move_enter is: ', move_enter);
 let tmp_left, tmp_top, tmp2_left, tmp2_top;
 
 let screen_width = window.screen.width;
@@ -52,3 +54,4 @@ class movingBox {
 
 let clickBox = new movingBox(move_click, 100, 0);
 let hoverBox = new movingBox(move_hover, 0, 50);
+let enterBox = new movingBox(move_enter, 10, 10);

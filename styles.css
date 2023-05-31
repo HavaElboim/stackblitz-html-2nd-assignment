@@ -14,3 +14,12 @@
   left: 0px;
   top: 40px;
 }
+
+.on-enter-text {
+  background-color: rgb(251, 217, 0);
+  display: inline-block;
+  cursor: pointer;
+  position: absolute;
+  left: 200px;
+  top: 240px;
+}
